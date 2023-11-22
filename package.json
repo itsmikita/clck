@@ -1,0 +1,11 @@
+{
+  "name": "clck",
+  "description": "A simple CLI for shortening URLs using the clck.ru service.",
+  "author": "Mikita Stankiewicz <itsmikita@gmail.com>",
+  "version": "0.0.2",
+  "dependencies": {
+    "bun": "latest",
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
