@@ -1,15 +1,20 @@
-# clck
+# `clck`
 
-To install dependencies:
+URL-shortener CLI-script for macOS Terminal. May also work on Linux, not yet tested.
 
-```bash
-bun install
+## How-to
+
+Clone the repo and run the build script like so:
+
+```shell
+bun install && bun build
 ```
 
-To run:
+It will put the script into ´/usr/share/bin´. Reload the Terminal window and you can now run:
 
-```bash
-bun run index.ts
+```shell
+clck https://your-url-to-be-shorten.xyz
 ```
 
-This project was created using `bun init` in bun v1.0.7. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+To retrieve the shorten URL.
+
